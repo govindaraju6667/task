@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import "./App.css";
+// import Comp2 from "./Comp2";
+// import Rating from "./Add";
+// import Star from "./Star";
+// import Check from "./Check";
+// import { CountLabel } from "./CountLabel";
+import { Note } from "./Note";
+import { Todo1 } from "./Todo1";
+import Todo from "./text";
+// import { Todo } from "./Todo";
+// import StarRating from "./Star2";
+// import SerachData from "./Search";
+// import Component from "./Component";
+// import MyComponent from "./MyComponent";
+// import Comp3 from './Comp3';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Component /> */}
+      {/* <Comp2 /> */}
+      {/* <Comp3 /> */}
+      {/* <SerachData /> */}
+      {/* <Rating /> */}
+      {/* <StarRating /> */}
+      {/* <DataEntry /> */}
+      {/* <Check /> */}
+      {/* <CountLabel /> */}
+      {/* <Todo /> */}
+      <Todo1 />
+      {/* <Note /> */}
     </div>
   );
 }
